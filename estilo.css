@@ -1,0 +1,93 @@
+.flex-container {
+    display: flex;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.flex-container.main-video {
+    width: 952px;
+    height: 746px;
+    left: 75px;
+    gap: 16px;
+}
+
+
+
+.small-videos {
+    position: relative; 
+    width: 160px;
+    height: 938px;
+    /* top: 84px;  */
+    flex-direction: column;
+    align-self: 200px;
+}
+
+section {
+    display: flex;
+
+}
+.colunas {
+    width: Hug (160px);
+    height: Hug (938px);
+    top: 84px;
+    left: 1052px;
+    gap: 16px;
+}
+
+
+.flex-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.conta {
+    position: absolute;
+    right: 10px;
+    width: Fixed (1, 440px);
+    height: Fixed (56px);
+    padding: 0px, 24px, 0px, 24px;
+    justify: space-between;
+}
+
+.youtube {
+    width: 146px;
+    height: 24px;
+    position: absolute;
+    left: 10px;
+}
+
+
+.colunas .mini-textos { 
+margin-bottom: 10px;
+padding-bottom: 10px;  
+/* margin-top: 0px; */
+/* gap: 5px; */
+}
+
+.mini-imagens {
+    width: Hug (160px);
+    height: Hug (938px);
+    top: 84px;
+    left: 1052px;
+    gap: 1px;
+}
+
+
+.caixa {
+    border: 1px solid #CCCCCC;
+    width: 404px;
+    height: 40px;
+    border: 1px;
+    border: 1px solid #CCCCCC;
+    gap: 10px 10px;
+}
+
+
+.topo {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    margin-top: auto;
+}
